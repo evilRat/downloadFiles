@@ -1,0 +1,28 @@
+{
+    "workDir": "F:/temp",
+    "threads": [{
+            "HostAddress": "10.7.5.69",
+            "Port": 22,
+            "Username": "ftpuser",
+            "Password": "ftpuser",
+            "RemotePath": "/app/ftpuser/100_OrdMember_2019",
+            "LocalPath": "F:/temp/1"
+        },
+        {
+            "HostAddress": "10.7.5.69",
+            "Port": 22,
+            "Username": "ftpuser",
+            "Password": "ftpuser",
+            "RemotePath": "/app/ftpuser/100_OrdMember_2019",
+            "LocalPath": "F:/temp/2"
+        },
+        {
+            "HostAddress": "10.7.5.69",
+            "Port": 22,
+            "Username": "ftpuser",
+            "Password": "ftpuser",
+            "RemotePath": "/app/ftpuser/100_OrdMember_2019",
+            "LocalPath": "F:/temp/3"
+        }
+    ]
+}

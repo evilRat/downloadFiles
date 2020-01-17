@@ -1,0 +1,45 @@
+2020-01-17 15:22:06,540 - root - WARNING - fuck warning
+2020-01-17 15:22:06,540 - root - ERROR - fuck error
+2020-01-17 15:25:03,718 - root - INFO - fuck info
+2020-01-17 15:25:03,720 - root - WARNING - fuck warning
+2020-01-17 15:25:03,722 - root - ERROR - fuck error
+2020-01-17 15:25:52,792 - root - INFO - fuck info
+2020-01-17 15:25:52,794 - root - WARNING - fuck warning
+2020-01-17 15:25:52,797 - root - ERROR - fuck error
+2020-01-17 15:26:52,243 - root - INFO - fuck info
+2020-01-17 15:26:52,245 - root - WARNING - fuck warning
+2020-01-17 15:26:52,248 - root - ERROR - fuck error
+fuck info
+fuck warning
+fuck error
+2020-01-17 15:29:01,563 - root - INFO - fuck info
+2020-01-17 15:29:01,566 - root - WARNING - fuck warning
+2020-01-17 15:29:01,568 - root - ERROR - fuck error
+2020-01-17 15:29:21,764 - root - INFO - fuck info
+2020-01-17 15:29:21,766 - root - WARNING - fuck warning
+2020-01-17 15:29:21,768 - root - DEBUG - fuck debug
+2020-01-17 15:29:21,770 - root - ERROR - fuck error
+2020-01-17 15:29:36,082 - root - INFO - fuck info
+2020-01-17 15:29:36,085 - root - WARNING - fuck warning
+2020-01-17 15:29:36,087 - root - DEBUG - fuck debug
+2020-01-17 15:29:36,088 - root - ERROR - fuck error
+2020-01-17 15:29:43,273 - root - INFO - fuck info
+2020-01-17 15:29:43,275 - root - WARNING - fuck warning
+2020-01-17 15:29:43,278 - root - DEBUG - fuck debug
+2020-01-17 15:29:43,279 - root - ERROR - fuck error
+2020-01-17 15:31:17,168 - root - INFO - fuck info
+2020-01-17 15:31:17,170 - root - WARNING - fuck warning
+2020-01-17 15:31:17,173 - root - DEBUG - fuck debug
+2020-01-17 15:31:17,176 - root - ERROR - fuck error
+2020-01-17 15:31:18,318 - root - INFO - fuck info
+2020-01-17 15:31:18,320 - root - WARNING - fuck warning
+2020-01-17 15:31:18,323 - root - DEBUG - fuck debug
+2020-01-17 15:31:18,325 - root - ERROR - fuck error
+2020-01-17 15:31:18,915 - root - INFO - fuck info
+2020-01-17 15:31:18,917 - root - WARNING - fuck warning
+2020-01-17 15:31:18,919 - root - DEBUG - fuck debug
+2020-01-17 15:31:18,921 - root - ERROR - fuck error
+2020-01-17 15:58:10,256 - root - INFO - fuck info
+2020-01-17 15:58:10,259 - root - WARNING - fuck warning
+2020-01-17 15:58:10,261 - root - DEBUG - fuck debug
+2020-01-17 15:58:10,263 - root - ERROR - fuck error
