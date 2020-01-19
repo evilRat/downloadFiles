@@ -465,3 +465,21 @@
 2020-01-17 16:16:48,291 - root - INFO - 已下载 [14] 个文件
 2020-01-17 16:16:48,316 - root - INFO - [get] /app/ftpuser/100_OrdMember_2019/100_OrdMember_201911 ==> F:/temp/3\100_OrdMember_2019\100_OrdMember_201911
 2020-01-17 16:16:48,316 - root - INFO - 已下载 [15] 个文件
+2020-01-19 09:50:50,194 - root - INFO - 工作目录： F:/temp
+2020-01-19 09:50:50,206 - root - INFO - =======================配置信息 start=============================
+2020-01-19 09:50:50,207 - root - INFO - HostAddress 10.7.5.69
+2020-01-19 09:50:50,211 - root - INFO - Port 22
+2020-01-19 09:50:50,212 - root - INFO - Username ftpuser
+2020-01-19 09:50:50,213 - root - INFO - Password ftpuser
+2020-01-19 09:50:50,214 - root - INFO - RemotePath /app/ftpuser/100_OrdMember_2019
+2020-01-19 09:50:50,215 - root - INFO - LocalPath F:/temp/1
+2020-01-19 09:50:50,216 - root - INFO - =======================配置信息 end=============================
+2020-01-19 09:51:11,240 - root - ERROR - Unable to connect to 10.7.5.69: [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+2020-01-19 09:51:11,260 - root - INFO - =======================配置信息 start=============================
+2020-01-19 09:51:11,261 - root - INFO - HostAddress 10.7.5.69
+2020-01-19 09:51:11,262 - root - INFO - Port 22
+2020-01-19 09:51:11,262 - root - INFO - Username ftpuser
+2020-01-19 09:51:11,263 - root - INFO - Password ftpuser
+2020-01-19 09:51:11,265 - root - INFO - RemotePath /app/ftpuser/100_OrdMember_2019
+2020-01-19 09:51:11,270 - root - INFO - LocalPath F:/temp/2
+2020-01-19 09:51:11,271 - root - INFO - =======================配置信息 end=============================
