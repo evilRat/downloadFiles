@@ -179,3 +179,69 @@
 2020-01-19 09:56:38,603 - root - INFO - 写入 F:/temp\3\100_OrdMember_2019\100_OrdMember_2019111 到压缩包 F:\workspace\python\downRecordFile\dist\result.zip 成功
 2020-01-19 09:56:38,605 - root - INFO - 写入 F:/temp\3\100_OrdMember_2019\tmp001.xls 到压缩包 F:\workspace\python\downRecordFile\dist\result.zip 成功
 2020-01-19 09:56:38,606 - root - INFO - ==========================压缩完成==========================
+2020-01-19 13:12:24,179 - root - INFO - 工作目录： F:/temp
+2020-01-19 13:12:24,180 - root - INFO - =======================配置信息 start=============================
+2020-01-19 13:12:24,182 - root - INFO - HostAddress 10.7.5.69
+2020-01-19 13:12:24,182 - root - INFO - Port 22
+2020-01-19 13:12:24,184 - root - INFO - Username ftpuser
+2020-01-19 13:12:24,184 - root - INFO - Password ftpuser
+2020-01-19 13:12:24,184 - root - INFO - RemotePath /app/ftpuser/100_OrdMember_2019
+2020-01-19 13:12:24,184 - root - INFO - LocalPath F:/temp/1
+2020-01-19 13:12:24,184 - root - INFO - =======================配置信息 end=============================
+2020-01-19 13:12:24,256 - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_5.5)
+2020-01-19 13:12:24,611 - paramiko.transport - INFO - Authentication (password) successful!
+2020-01-19 13:12:24,630 - paramiko.transport.sftp - INFO - [chan 0] Opened sftp connection (server version 3)
+2020-01-19 13:12:24,700 - root - INFO - [get] /app/ftpuser/100_OrdMember_2019/100_OrdMember_2019/100_OrdMember_2019222 ==> F:/temp/1\100_OrdMember_2019\100_OrdMember_2019\100_OrdMember_2019222
+2020-01-19 13:12:24,700 - root - INFO - 已下载 [1] 个文件
+2020-01-19 13:12:24,723 - root - INFO - [get] /app/ftpuser/100_OrdMember_2019/100_OrdMember_2019/100_OrdMember_201922 ==> F:/temp/1\100_OrdMember_2019\100_OrdMember_2019\100_OrdMember_201922
+2020-01-19 13:12:24,723 - root - INFO - 已下载 [2] 个文件
+2020-01-19 13:12:24,770 - root - INFO - [get] /app/ftpuser/100_OrdMember_2019/tmp001.xls ==> F:/temp/1\100_OrdMember_2019\tmp001.xls
+2020-01-19 13:12:24,770 - root - INFO - 已下载 [3] 个文件
+2020-01-19 13:12:24,793 - root - INFO - [get] /app/ftpuser/100_OrdMember_2019/100_OrdMember_2019111 ==> F:/temp/1\100_OrdMember_2019\100_OrdMember_2019111
+2020-01-19 13:12:24,793 - root - INFO - 已下载 [4] 个文件
+2020-01-19 13:12:24,816 - root - INFO - [get] /app/ftpuser/100_OrdMember_2019/100_OrdMember_201911 ==> F:/temp/1\100_OrdMember_2019\100_OrdMember_201911
+2020-01-19 13:12:24,816 - root - INFO - 已下载 [5] 个文件
+2020-01-19 13:12:24,816 - root - INFO - =======================配置信息 start=============================
+2020-01-19 13:12:24,817 - root - INFO - HostAddress 10.7.5.69
+2020-01-19 13:12:24,817 - root - INFO - Port 22
+2020-01-19 13:12:24,817 - root - INFO - Username ftpuser
+2020-01-19 13:12:24,818 - root - INFO - Password ftpuser
+2020-01-19 13:12:24,819 - root - INFO - RemotePath /app/ftpuser/100_OrdMember_2019
+2020-01-19 13:12:24,820 - root - INFO - LocalPath F:/temp/2
+2020-01-19 13:12:24,820 - root - INFO - =======================配置信息 end=============================
+2020-01-19 13:12:24,836 - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_5.5)
+2020-01-19 13:12:25,187 - paramiko.transport - INFO - Authentication (password) successful!
+2020-01-19 13:12:25,204 - paramiko.transport.sftp - INFO - [chan 0] Opened sftp connection (server version 3)
+2020-01-19 13:12:25,273 - root - INFO - [get] /app/ftpuser/100_OrdMember_2019/100_OrdMember_2019/100_OrdMember_2019222 ==> F:/temp/2\100_OrdMember_2019\100_OrdMember_2019\100_OrdMember_2019222
+2020-01-19 13:12:25,273 - root - INFO - 已下载 [6] 个文件
+2020-01-19 13:12:25,297 - root - INFO - [get] /app/ftpuser/100_OrdMember_2019/100_OrdMember_2019/100_OrdMember_201922 ==> F:/temp/2\100_OrdMember_2019\100_OrdMember_2019\100_OrdMember_201922
+2020-01-19 13:12:25,298 - root - INFO - 已下载 [7] 个文件
+2020-01-19 13:12:25,344 - root - INFO - [get] /app/ftpuser/100_OrdMember_2019/tmp001.xls ==> F:/temp/2\100_OrdMember_2019\tmp001.xls
+2020-01-19 13:12:25,345 - root - INFO - 已下载 [8] 个文件
+2020-01-19 13:12:25,369 - root - INFO - [get] /app/ftpuser/100_OrdMember_2019/100_OrdMember_2019111 ==> F:/temp/2\100_OrdMember_2019\100_OrdMember_2019111
+2020-01-19 13:12:25,369 - root - INFO - 已下载 [9] 个文件
+2020-01-19 13:12:25,394 - root - INFO - [get] /app/ftpuser/100_OrdMember_2019/100_OrdMember_201911 ==> F:/temp/2\100_OrdMember_2019\100_OrdMember_201911
+2020-01-19 13:12:25,394 - root - INFO - 已下载 [10] 个文件
+2020-01-19 13:12:25,396 - root - INFO - =======================配置信息 start=============================
+2020-01-19 13:12:25,396 - root - INFO - HostAddress 10.7.5.69
+2020-01-19 13:12:25,397 - root - INFO - Port 22
+2020-01-19 13:12:25,398 - root - INFO - Username ftpuser
+2020-01-19 13:12:25,399 - root - INFO - Password ftpuser
+2020-01-19 13:12:25,399 - root - INFO - RemotePath /app/ftpuser/100_OrdMember_2019
+2020-01-19 13:12:25,400 - root - INFO - LocalPath F:/temp/3
+2020-01-19 13:12:25,400 - root - INFO - =======================配置信息 end=============================
+2020-01-19 13:12:25,417 - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_5.5)
+2020-01-19 13:12:25,770 - paramiko.transport - INFO - Authentication (password) successful!
+2020-01-19 13:12:25,786 - paramiko.transport.sftp - INFO - [chan 0] Opened sftp connection (server version 3)
+2020-01-19 13:12:25,853 - root - INFO - [get] /app/ftpuser/100_OrdMember_2019/100_OrdMember_2019/100_OrdMember_2019222 ==> F:/temp/3\100_OrdMember_2019\100_OrdMember_2019\100_OrdMember_2019222
+2020-01-19 13:12:25,854 - root - INFO - 已下载 [11] 个文件
+2020-01-19 13:12:25,878 - root - INFO - [get] /app/ftpuser/100_OrdMember_2019/100_OrdMember_2019/100_OrdMember_201922 ==> F:/temp/3\100_OrdMember_2019\100_OrdMember_2019\100_OrdMember_201922
+2020-01-19 13:12:25,879 - root - INFO - 已下载 [12] 个文件
+2020-01-19 13:12:25,925 - root - INFO - [get] /app/ftpuser/100_OrdMember_2019/tmp001.xls ==> F:/temp/3\100_OrdMember_2019\tmp001.xls
+2020-01-19 13:12:25,925 - root - INFO - 已下载 [13] 个文件
+2020-01-19 13:12:25,949 - root - INFO - [get] /app/ftpuser/100_OrdMember_2019/100_OrdMember_2019111 ==> F:/temp/3\100_OrdMember_2019\100_OrdMember_2019111
+2020-01-19 13:12:25,949 - root - INFO - 已下载 [14] 个文件
+2020-01-19 13:12:25,975 - root - INFO - [get] /app/ftpuser/100_OrdMember_2019/100_OrdMember_201911 ==> F:/temp/3\100_OrdMember_2019\100_OrdMember_201911
+2020-01-19 13:12:25,975 - root - INFO - 已下载 [15] 个文件
+2020-01-19 13:12:25,977 - root - INFO - =======================准备开始压缩==========================
+2020-01-19 13:12:25,977 - root - INFO - ==========================开始压缩。。。==========================

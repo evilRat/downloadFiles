@@ -116,6 +116,7 @@ if __name__ == "__main__":
     logger.info('工作目录： %s', configs['workDir'])
     #检查本地工作目录（父目录）
     check_local(configs['workDir'])
+    threadList = []
     for config in configs['threads']:
         logger.info("=======================配置信息 start=============================")
         logger.info("HostAddress %s",config['HostAddress'])
@@ -131,16 +132,19 @@ if __name__ == "__main__":
         #多线程
         t = threading.Thread(target=downLoad, args=(client, sftp, config['RemotePath'], config['LocalPath']))
         t.start()
-        t.join()
+        threadList.append(t)
         #单线程
         #downLoad(client, sftp, config['RemotePath'], config['LocalPath'])
+    for t in threadList:
+        t.join()
 
     #压缩
     # while threading.active_count() == 1:
     logger.info('=======================准备开始压缩==========================')
     #time.sleep(3)
     logger.info('==========================开始压缩。。。==========================')
-    zipFilePath = os.path.join(os.getcwd(), 'result.zip')
+    check_local(configs['zipDir'])
+    zipFilePath = os.path.join(configs['zipDir'], configs['zipName'] + '.zip')
     zipFile = zipfile.ZipFile(zipFilePath, 'w', zipfile.ZIP_DEFLATED, allowZip64=True)
     absZipFileDir = configs['workDir']
     writeAllFileToZip(absZipFileDir, zipFile)

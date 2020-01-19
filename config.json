@@ -1,5 +1,7 @@
 {
     "workDir": "F:/temp",
+    "zipDir": "F:/result",
+    "zipName": "rrrr",
     "threads": [{
             "HostAddress": "10.7.5.69",
             "Port": 22,
